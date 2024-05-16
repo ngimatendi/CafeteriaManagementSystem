@@ -1,0 +1,9 @@
+.promo-banner-bg {
+  background: #b6b4b4 url("../img/Mountain.jpg") center;
+  /* background: url("../img/Mountain.jpg") center; */
+  background-position: top;
+  background-size: auto;
+  background-position-x: center;
+  background-clip: padding-box;
+  background-blend-mode: multiply;
+}
