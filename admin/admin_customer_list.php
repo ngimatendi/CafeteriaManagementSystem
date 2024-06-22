@@ -14,9 +14,9 @@
     <meta charset="UTF-8">
      
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../img/Color Icon with background.png" rel="icon">
+    <link href="../img/Logo.png" rel="icon">
     <link href="../css/main.css" rel="stylesheet">
-    <title>Customer List | FOODCAVE</title>
+    <title>Customer List | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">

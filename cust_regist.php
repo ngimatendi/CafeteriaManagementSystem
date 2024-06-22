@@ -2,20 +2,22 @@
 <html lang="en">
 
 <head>
-    <?php session_start(); include("conn_db.php"); include('head.php');?>
+    <?php session_start();
+    include ("conn_db.php");
+    include ('head.php'); ?>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login.css" rel="stylesheet">
 
-    <title>Customer Registration | FOODCAVE</title>
+    <title>Customer Registration | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column">
     <header class="navbar navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-            <img src="img/Color logo - no background.png" width="125" class="me-2" alt="FOODCAVE Logo">
+                <img src="img/Logo.png" width="80" class="me-2" alt="JMC Logo">
             </a>
         </div>
     </header>
@@ -86,7 +88,7 @@
         </form>
     </div>
     <div class="container mt-4"></div>
-    <?php include('footer.php')?>
+    <?php include ('footer.php') ?>
 </body>
 
 </html>

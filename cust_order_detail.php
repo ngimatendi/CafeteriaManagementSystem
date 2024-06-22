@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
-    <title>Order Detail | FOODCAVE</title>
+    <title>Order Detail | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">

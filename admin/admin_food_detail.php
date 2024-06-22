@@ -17,7 +17,7 @@
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/menu.css" rel="stylesheet">
     <link href="../img/Color Icon with background.png" rel="icon">
-    <title>Food Detail | FOODCAVE</title>
+    <title>Food Detail | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">

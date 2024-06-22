@@ -8,14 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login.css" rel="stylesheet">
 
-    <title>Reset password failed | FOODCAVE</title>
+    <title>Reset password failed | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">
     <header class="navbar navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-                <img src="img/Color logo - no background.png" width="125" class="me-2" alt="FOODCAVE Logo">
+                <img src="img/Logo.png" width="80" class="me-2" alt="JMC Logo">
             </a>
         </div>
     </header>

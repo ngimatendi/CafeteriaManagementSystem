@@ -2,32 +2,33 @@
 <html lang="en" class="h-100">
 
 <head>
-    <?php 
-        session_start(); 
-        include("../conn_db.php"); 
-        include('../head.php');
-        if($_SESSION["utype"]!="ADMIN"){
-            header("location: ../restricted.php");
-            exit(1);
-        }
+    <?php
+    session_start();
+    include ("../conn_db.php");
+    include ('../head.php');
+    if ($_SESSION["utype"] != "ADMIN") {
+        header("location: ../restricted.php");
+        exit(1);
+    }
     ?>
     <meta charset="UTF-8">
-     
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../img/Color Icon with background.png" rel="icon">
+    <link href="../img/Logo.png" rel="icon">
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/main1.css" rel="stylesheet">
-    <title>Admin Dashboard | FOODCAVE</title>
+    <title>Admin Dashboard | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column">
 
-    <?php include('nav_header_admin.php')?>
+    <?php include ('nav_header_admin.php') ?>
 
     <div class="d-flex text-center text-white promo-banner-bg py-3">
         <div class="p-lg-2 mx-auto my-3">
             <h1 class="display-5 fw-normal">ADMIN DASHBOARD</h1>
-            <p class="lead fw-normal">Food ordering system of SVEC Tadepalligudem</p></div>
+            <p class="lead fw-normal">Food ordering system of JMC-Cafeteria</p>
+        </div>
     </div>
 
     <div class="container p-5" id="admin-dashboard">
@@ -43,19 +44,21 @@
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="bi bi-person-fill"></i>
-                                Customer</h4>
+                                Customer
+                            </h4>
                             <p class="card-text my-2">
                                 <span class="h5">
                                     <?php
                                     $cust_query = "SELECT COUNT(*) AS cnt FROM customer;";
-                                    $cust_arr = $mysqli -> query($cust_query) -> fetch_array();
+                                    $cust_arr = $mysqli->query($cust_query)->fetch_array();
                                     echo $cust_arr["cnt"];
-                                ?>
+                                    ?>
                                 </span>
                                 customer(s) in the system
                             </p>
                             <div class="text-end">
-                                <a href="admin_customer_list.php" class="btn btn-sm btn-outline-dark">Go to Customer List</a>
+                                <a href="admin_customer_list.php" class="btn btn-sm btn-outline-dark">Go to Customer
+                                    List</a>
                             </div>
                         </div>
                     </div>
@@ -70,19 +73,21 @@
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="bi bi-shop"></i>
-                                Food Shop</h4>
+                                Food Shop
+                            </h4>
                             <p class="card-text my-2">
                                 <span class="h5">
                                     <?php
                                     $cust_query = "SELECT COUNT(*) AS cnt FROM shop;";
-                                    $cust_arr = $mysqli -> query($cust_query) -> fetch_array();
+                                    $cust_arr = $mysqli->query($cust_query)->fetch_array();
                                     echo $cust_arr["cnt"];
-                                ?>
+                                    ?>
                                 </span>
                                 food shop(s) in the system
                             </p>
                             <div class="text-end">
-                                <a href="admin_shop_list.php" class="btn btn-sm btn-outline-dark">Go to Food Shop List</a>
+                                <a href="admin_shop_list.php" class="btn btn-sm btn-outline-dark">Go to Food Shop
+                                    List</a>
                             </div>
                         </div>
                     </div>
@@ -97,14 +102,15 @@
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="bi bi-card-list"></i>
-                                Menu</h4>
+                                Menu
+                            </h4>
                             <p class="card-text my-2">
                                 <span class="h5">
                                     <?php
                                     $cust_query = "SELECT COUNT(*) AS cnt FROM food;";
-                                    $cust_arr = $mysqli -> query($cust_query) -> fetch_array();
+                                    $cust_arr = $mysqli->query($cust_query)->fetch_array();
                                     echo $cust_arr["cnt"];
-                                ?>
+                                    ?>
                                 </span>
                                 menu(s) in the system
                             </p>
@@ -124,14 +130,15 @@
                         <div class="card-body">
                             <h4 class="card-title">
                                 <i class="bi bi-card-list"></i>
-                                Order</h4>
+                                Order
+                            </h4>
                             <p class="card-text my-2">
                                 <span class="h5">
                                     <?php
                                     $cust_query = "SELECT COUNT(*) AS cnt FROM order_header;";
-                                    $cust_arr = $mysqli -> query($cust_query) -> fetch_array();
+                                    $cust_arr = $mysqli->query($cust_query)->fetch_array();
                                     echo $cust_arr["cnt"];
-                                ?>
+                                    ?>
                                 </span>
                                 order(s) in the system
                             </p>
@@ -149,7 +156,7 @@
         <!-- END ADMIN GRID DASHBOARD -->
 
     </div>
-    <?php include('admin_footer.php')?>
+    <?php include ('admin_footer.php') ?>
 </body>
 
 </html>

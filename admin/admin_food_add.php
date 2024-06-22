@@ -43,7 +43,7 @@
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/login.css" rel="stylesheet">
     <link href="../img/Color Icon with background.png" rel="icon">
-    <title>Update menu detail | FOODCAVE</title>
+    <title>Update menu detail | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">

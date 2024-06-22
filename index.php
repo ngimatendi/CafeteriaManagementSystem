@@ -7,7 +7,7 @@
     include ("head.php"); ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | FOODCAVE | FOODMUNCH </title>
+    <title>Welcome | JMC-Cafeteria</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main1.css">
 </head>
@@ -16,8 +16,8 @@
     <?php include ('nav_header.php') ?>
     <div class="d-flex text-center text-white position-relative promo-banner-bg py-2">
         <div class="p-lg-2 mx-auto my-5">
-            <h1 class="display-5 fw-normal">Welcome to DNC Sherpa Guest House</h1>
-            <p class="lead fw-normal">We Provide best Services</p>
+            <h1 class="display-5 fw-normal">Welcome to JMC-Cafeteria</h1>
+            <p class="lead fw-normal">We Provide best Foods</p>
             <span class="xsmall-font text-muted"></span>
         </div>
     </div>

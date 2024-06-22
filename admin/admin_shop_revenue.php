@@ -20,7 +20,7 @@
     <link href="../css/login.css" rel="stylesheet">
     <script type="text/javascript" src="../js/revenue_date_selection.js"></script>
     <link href="../img/Color Icon with background.png" rel="icon">
-    <title>Shop Revenue Report | FOODCAVE</title>
+    <title>Shop Revenue Report | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100 bg-white">

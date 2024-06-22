@@ -17,7 +17,7 @@
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/menu.css" rel="stylesheet">
     <link href="../img/Color Icon with background.png" rel="icon">
-    <title>Customer Profile | FOODCAVE</title>
+    <title>Customer Profile | JMC-Cafeteria</title>
 </head>
 
 <body class="d-flex flex-column h-100">

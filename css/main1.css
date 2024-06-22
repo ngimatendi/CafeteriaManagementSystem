@@ -1,6 +1,7 @@
 .promo-banner-bg {
-  background: #b6b4b4 url("../img/Mountain.jpg") center;
+  /* background: #b6b4b4 url("../img/Mountain.jpg") center; */
   /* background: url("../img/Mountain.jpg") center; */
+  background-color: #749bef;
   background-position: top;
   background-size: auto;
   background-position-x: center;

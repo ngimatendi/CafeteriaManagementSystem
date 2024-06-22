@@ -9,7 +9,7 @@
     <link href="css/login.css" rel="stylesheet">
     <link href="../img/Color Icon with background.png" rel="icon">
 
-    <title>About Us | FOODCAVE</title>
+    <title>About Us | JMC-Cafeteria</title>
     <style>
        html,body {
   height:100%;
@@ -23,7 +23,7 @@
     <header class="navbar navbar-expand-md navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-                <img src="../img/Color logo - no background.png" width="125" class="me-2" alt="FOODCAVE Logo">
+                <img src="../img/Logo.png" width="80" class="me-2" alt="JMC Logo">
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
